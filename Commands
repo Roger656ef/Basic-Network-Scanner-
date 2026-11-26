@@ -1,0 +1,25 @@
+
+#!/usr/bin/env bash
+
+# PYSCAN - Usage Examples
+# Use only on systems you own or are authorized to assess.
+
+echo "PYSCAN Usage Examples"
+
+# Localhost scan
+python pyscan.py 127.0.0.1
+
+# Scan selected ports
+python pyscan.py 127.0.0.1 -p 22,80,443
+
+# Scan a port range
+python pyscan.py 127.0.0.1 -p 1-1024
+
+# JSON output
+python pyscan.py 127.0.0.1 --json -o results.json
+
+# CSV output
+python pyscan.py 127.0.0.1 --csv -o results.csv
+
+# Display help
+python pyscan.py --help
