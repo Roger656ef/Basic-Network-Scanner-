@@ -1,0 +1,11 @@
+Python-Network-Scanner/
+│
+├── main.py              # Your original scanner source code
+├── README.md            # Project documentation
+├── LICENSE              # MIT License
+├── requirements.txt     # Dependencies
+├── .gitignore           # Ignore unnecessary files
+├── CHANGELOG.md         # Version history
+├── SECURITY.md          # Security policy
+└── screenshots/
+    └── scanner.png      # Scanner output screenshot
